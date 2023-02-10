@@ -8,6 +8,9 @@ import {
 
 const Aws = () => {
   const [awsS3Service, setAwsS3Service] = useState(new AjaxSettings());
+  
+  
+  console.log("helloo")
 
   return (
     <FileManagerComponent
